@@ -100,10 +100,9 @@
     //case 2:
      $num1=5;
     $num2= ++$num1 + $num1++ + ++$num1;
-    //         6       8          7    6+7+8=20
-    echo "NUM1=".$num1. "<br>";
-    echo "NUM2=".$num2. "<br>";
-
+    //         6       6          8    6+6+8=20
+    // echo "NUM1=".$num1. "<br>";
+    // echo "NUM2=".$num2. "<br>";
 
 
     /*
