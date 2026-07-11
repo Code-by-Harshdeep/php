@@ -45,7 +45,7 @@
         echo "Number 1 is Greater : ".$num1;
       }
       else{
-        echo "Number 2 is Greater";
+        echo "Number 2 is Greater".$num2;
       }
 
 ?>
