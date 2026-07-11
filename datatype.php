@@ -47,6 +47,14 @@
       else{
         echo "Number 2 is Greater".$num2;
       }
+    //tricky concept
+    if(150)
+        echo "<br> Hello";
+    else
+        echo "Bye"
+
+    // Basically Every number or value which is not zero
+    //will result as True and every value which is zero will result in false
 
 ?>
 </body>
