@@ -61,6 +61,11 @@
     $age="18";
     settype($age,"integer");
     echo gettype($age);
+ echo "<br>";
+    echo var_dump($age);
+     echo "<br>";
+     echo gettype($age);
+
 ?>
 </body>
 </html>
