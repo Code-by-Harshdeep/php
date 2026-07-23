@@ -51,11 +51,16 @@
     if(150)
         echo "<br> Hello";
     else
-        echo "Bye"
+        echo "Bye";
 
     // Basically Every number or value which is not zero
     //will result as True and every value which is zero will result in false
 
+    echo "<br>";
+
+    $age="18";
+    settype($age,"integer");
+    echo gettype($age);
 ?>
 </body>
 </html>
