@@ -10,6 +10,9 @@
    class Car{
          public $color;
          public $brand;
+         public function start(){
+            echo "Car is Starting";
+         }
     }
     $car1=new Car();
     $car1->color="Red";
