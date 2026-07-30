@@ -21,6 +21,7 @@
     echo $car1->color;
     echo "<br>";
     echo $car1->brand;
+    echo $car1->start();
 
     ?>
 </body>
