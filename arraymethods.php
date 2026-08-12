@@ -21,7 +21,12 @@
     print_r($names);
     array_shift($names); //Removing Existing element from the Starting of Array
     print_r($names);
-    ?>
+    sort($numbers);  //Covered sorting in ascending manner
+    print_r($names);
+    rsort($numbers); //Covered sorting in descending manner
+    print_r($names);
+    print_r(array_reverse($names)); //Reverse of Array Elements Order
+    print_r($names);    
     
 </body>
 </html>
