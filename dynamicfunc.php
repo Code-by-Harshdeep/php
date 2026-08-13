@@ -18,6 +18,19 @@
     echo ($order);
     $order= Burger();
     echo ($order);
+
+
+
+    //another Approach
+    function orderFood($food) {
+    echo $food . " Is Ordered<br>";
+      }
+
+     $order = "Pizza";
+    orderFood($order);
+
+    $order = "Burger";
+     orderFood($order);
     ?>
 </body>
 </html>
