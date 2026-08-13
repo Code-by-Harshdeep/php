@@ -31,6 +31,17 @@
 
     $order = "Burger";
      orderFood($order);
+
+
+     //another Example
+     function greet($name) {
+    echo "Hello, " . $name . "<br>";
+     }
+
+     greet("Alice");
+     greet("Kenny");
+     greet("James");
+ 
     ?>
 </body>
 </html>
