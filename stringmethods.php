@@ -13,6 +13,8 @@
      $word=" Kenny k   ";
      echo (trim($word));
     echo (str_replace("Kenny","James",$word));
+    echo (strlen($name));
+    echo (strrev($name));
     ?>
 </body>
 </html>
