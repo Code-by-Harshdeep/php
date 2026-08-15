@@ -10,6 +10,9 @@
     $name="Php";
     echo (strtoupper($name));
      echo (strtolower($name));
+     $word=" Kenny k   ";
+     echo (trim($word));
+    echo (str_replace("Kenny","James",$word));
     ?>
 </body>
 </html>
