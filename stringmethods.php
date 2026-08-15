@@ -15,6 +15,7 @@
     echo (str_replace("Kenny","James",$word));
     echo (strlen($name));
     echo (strrev($name));
+    echo (str_word_count($name));
     ?>
 </body>
 </html>
