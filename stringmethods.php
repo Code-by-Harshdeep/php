@@ -16,6 +16,7 @@
     echo (strlen($name));
     echo (strrev($name));
     echo (str_word_count($name));
+    echo substr($name, 2, 5);// will return specific part of the string 
     ?>
 </body>
 </html>
